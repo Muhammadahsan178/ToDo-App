@@ -1,0 +1,71 @@
+body {
+  text-align: center;
+  background-image: url("todo\ image.jpg");
+}
+
+.todo {
+  padding-block-start: 15px;
+  margin-right: 10px;
+  padding-right: 89px;
+  margin-top: 68px;
+}
+
+button{
+    background-color:#339ACC;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+.hello{
+  
+    background-color: cadetblue;
+    margin-left: 5px;
+  text-align: left;
+  
+}
+ .btn1:hover{
+    background-color: #14A989;
+}
+
+@media only screen and (max-width: 1000px) {
+  .todo,
+  #todo_item,
+  #list {
+    width: 800px;
+  }
+  /* #list {
+        width: 800px;
+            } */
+}
+
+@media only screen and (max-width: 800px) {
+  .todo,
+  #todo_item,
+  #list {
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .todo,
+  #todo_item,
+  #list {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .todo,
+  #todo_item,
+  #list {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 200px) {
+  .todo,
+  #todo_item,
+  #list {
+    width: 100px;
+  }
+}
